@@ -268,7 +268,6 @@
 #sec_skill {
     width: 95%;
     height: 630px;
-    border: 2px solid green;
     margin-left: 20px;
     display: flex;
     justify-content: space-around;
@@ -276,31 +275,32 @@
 }
 .sec_skill_div_1 {
     width: 30%;
+
 }
 .sec_skill_div_1_li_itm {
     list-style: none;
     padding-top: 25px;
-    border: 2px solid green;
 }
 .sec_skill_div_1_li_itm > a {
     text-decoration: none;
     font-size: 30px;
     color: #d5e0d5;
 } 
+.sec_skill_div_1_li_itm > a:hover {
+    color: green;
+}
 /* div 2 */
 .sec_skill_div_2 {
     width: 30%;
-    border: 2px solid red;
 }
 .sec_skill_div_2_itm {
     list-style: none;
-    border: 1px solid pink;
     margin-top: 15px;
 }
 .sec_skill_div_2_itm > a {
     text-decoration: none;
     font-size: 20px;
-    color: #bed6db;
+    color: #484d4e;
 }
 .sec_skill_div_2_itm > a:hover {
     color: green;
@@ -308,5 +308,98 @@
 /* div 3 */
 .sec_skill_div_3 {
     width: 30%;
-    border: 2px solid red;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&& footer  ***********************************/
+
+#footer {
+    background-color: #001e00 ;
+    width: 95%;
+    height: 560px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+.footer_div_1 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_ul_1 {
+    width: 23%;
+    padding-top: 30px;
+}
+.footer_lst_itm {
+    color: white;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.footer_lst_itm > a {
+    text-decoration: none;
+    color: white;
+}
+.footer_lst_itm > a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer social media link */
+.footer_social_lnk {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_social_lnk_ul_1 {
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.footer_social_lnk_itm > a > i{
+    font-size: 28px;
+    color:  white;
+    padding-left: 20px;
+}
+
+.footer_div_2 {
+    display: flex;
+}
+
+.footer_div_2 > li {
+    list-style: none;
+    color: white;
+}
+.footer_div_2 > li > a > i {
+    color: white;
+    font-size: 28px;
+    margin-right: 20px;
+    padding-top: 70px;
+}
+
+/* footer div 3  */
+
+.footer_div_3 {
+    margin-top: 30px;
+}
+
+.footer_div_3_ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer_div_3_ul > li  {
+    color: white;
+    margin-right: 20px;
+}
+.footer_div_3_ul > li > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer_div_3_ul > li > a:hover {
+    text-decoration: underline;
 }
