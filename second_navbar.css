@@ -1,0 +1,17 @@
+.sec_navbar {
+    display: flex;
+    margin-top: 25px;
+}
+
+.sec_navbar > li {
+    list-style: none;
+    margin-left: 20px;
+}
+.sec_navbar > li > a {
+    text-decoration: none;
+    color: black;
+} 
+
+.sec_navbar > li > a:hover {
+    text-decoration: underline;
+} 

@@ -1,0 +1,312 @@
+#for_clint {
+    width: 95%;
+    height: 450px;
+    background-color: burlywood;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+.for_clint_p1 {
+    color: black;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 27px;
+}
+.for_clint_p2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 27px;
+    margin-top: 70px;
+    line-height: 30px;
+}
+.for_clint_p3 {
+    margin-top: 40px;
+    margin-left: 27px;
+    font-size: 18px;
+}
+
+/* div boxes */
+.for_clint_main_box {
+    width: 100%;
+    height: 142px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+/* div box 1 */
+.for_clint_box1 {
+    width: 28%;
+    height: 85%;
+    background-color: green;
+    border-radius: 10px;
+}
+.for_clint_box1:hover {
+    background-color: white;
+    color: rgb(17, 92, 17);
+    cursor: pointer;
+}
+
+.for_clint_box1_p1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.for_clint_box1_p2 {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.for_clint_box1_p2 > i {
+    margin-left: 10px;
+}
+
+/* ((((((((((((((((((((((((((((((((((((((((((( business section ))))))))))))))))))))))))))))))))  */
+#busins_sec {
+    width: 95%;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+
+}
+.busins_sec_div_1 {
+    width: 65%;
+    height: 100%;
+    background-color: #f2f7f2;
+}
+
+.busins_sec_div_1 > img {
+    width: 250px;
+    height: 120%;
+    position: absolute;
+    left:470px;
+    top: -55px;
+}
+
+.busins_sec_div_1_p1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.busins_sec_div_1_p2 {
+    font-size: 35px;
+    /* border: 2px solid greenyellow; */
+    margin-top: 30px;
+    padding-left: 60px;
+    position: relative;
+
+}
+.busins_sec_div_1_p2 > i {
+    font-size: 15px;
+    left: 28px;
+    top: 7px;
+    position: absolute;
+}
+
+.busins_sec_div_1_p3 {
+    padding-left: 60px;
+    padding-top: 10px;
+    color: rgb(98, 93, 93);
+}
+/* div 2 */
+
+.busins_sec_div_2 {
+    background-color:#14a800;
+    width: 35%;
+    height: 100%;
+}
+.busins_sec_div_2_p1 {
+    margin-top: 190px;
+    margin-left: 75px;
+    font-size: 30px;
+    color: white;
+}
+
+.busins_sec_div_2_p2 {
+    margin-left: 75px;
+    font-size: 22px;
+    color: white;
+}
+.busins_sec_div_2_p2 > i {
+    font-size: 22px;
+    margin-top: 20px;
+    padding-right: 10px;
+    color: white;
+}
+
+.busins_sec_div_2_p3 {
+    color: #f2f7f2;
+    margin-left: 108px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* *********** */
+.busins_sec_div_2_p4 {
+    margin-top: 60px;
+    margin-left: 75px;
+    font-size: 30px;
+    color: white;
+}
+
+.busins_sec_div_2_p5 {
+    margin-left: 108px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+.busins_sec_div_2_p4 > i {
+    font-size: 22px ;
+    margin-top: 20px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+/* <!-- __________________Section For talent________________________________ --> */
+#sec_for_talent {
+    width: 95%;
+    height: 700px;
+    margin-left: 20px;
+    margin-top: 80px;
+    display: flex;
+}
+/* div 1 */
+.sec_for_talent_div_1 {
+    width: 50%;
+    height: 100%;
+}
+.sec_for_talent_div_1 > img {
+    width: 100%;
+    height: 100%;
+}
+
+/* div 2 */
+
+.sec_for_talent_div_2 {
+    width: 50%;
+    height: 100%;
+    background-color: #1f57c3;
+}
+.sec_for_talent_div_2_p1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.sec_for_talent_div_2_p2 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 22px;
+    line-height: 55px;
+    color: white;
+
+}
+.sec_for_talent_div_2_p3 {
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+.line1 {
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 22px;
+    /* height: 2px; */
+}
+
+.sec_for_talent_div_2_p4 {
+    display: flex;
+}
+
+.sec_for_talent_div_2_p4_span1 {
+    color: white;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.sec_for_talent_div_2_p4_span2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.sec_for_talent_div_2_p5 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px; 
+}
+
+.sec_for_talent_div_2_btn1 {
+    background-color: white;
+    border: none;
+    width: 170px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: blue;
+    cursor: pointer;
+    
+}
+
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&& section skills ******************************** --> */
+
+#sec_skill {
+    width: 95%;
+    height: 630px;
+    border: 2px solid green;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sec_skill_div_1 {
+    width: 30%;
+}
+.sec_skill_div_1_li_itm {
+    list-style: none;
+    padding-top: 25px;
+    border: 2px solid green;
+}
+.sec_skill_div_1_li_itm > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #d5e0d5;
+} 
+/* div 2 */
+.sec_skill_div_2 {
+    width: 30%;
+    border: 2px solid red;
+}
+.sec_skill_div_2_itm {
+    list-style: none;
+    border: 1px solid pink;
+    margin-top: 15px;
+}
+.sec_skill_div_2_itm > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #bed6db;
+}
+.sec_skill_div_2_itm > a:hover {
+    color: green;
+}
+/* div 3 */
+.sec_skill_div_3 {
+    width: 30%;
+    border: 2px solid red;
+}
